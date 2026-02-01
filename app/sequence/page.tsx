@@ -1,5 +1,5 @@
-import Sequence from "@/components/Sequence";
+import Hero from "@/components/Hero";
 
 export default function Page() {
-  return <Sequence />;
+  return <Hero />;
 }
