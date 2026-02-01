@@ -21,7 +21,7 @@ export const HERO: Work = {
 export const SEQUENCE: Work[] = [
   {
     id: "01",
-    src: "https://via.placeholder.com/2200x1467?text=01",
+    src: "/hero.jpg",
     width: 2200,
     height: 1467,
     orientation: "landscape",
