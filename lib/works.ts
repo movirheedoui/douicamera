@@ -18,7 +18,7 @@ export const HERO: Work = {
   order: 0,
 };
 
-export const SEQUENCE: Work[] = [
+const sequenceData: Work[] = [
   {
     id: "01",
     src: "/hero.jpg",
@@ -35,4 +35,6 @@ export const SEQUENCE: Work[] = [
     orientation: "portrait",
     order: 2,
   },
-].sort((a, b) => a.order - b.order);
+];
+
+export const SEQUENCE = sequenceData.sort((a, b) => a.order - b.order);
